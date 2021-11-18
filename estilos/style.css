@@ -1,0 +1,20 @@
+.contenedorTitulo{
+    color:rgb(53, 21, 119); 
+    height: 1024px;
+    width: 1436px
+}
+.contenedorTitulo_imagen{
+    background-image: url(../imagenes/meditando.jpg);
+    height: 1024px;
+    width: 1436px;
+}
+.caja{
+    width: 134px;
+    height: 53px;
+    right: 806px;
+}
+.logo{
+background-image: url(../imagenes/Imagen_ramdas.jpeg);
+height: 106px;
+width: 98px;
+}
