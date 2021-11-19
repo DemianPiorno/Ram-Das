@@ -1,10 +1,16 @@
-.contenedorTitulo{
-    color:rgb(53, 21, 119); 
-    height: 1024px;
-    width: 1436px
+*{
+    margin: 0;
+    padding: 0;
 }
-.contenedorTitulo_imagen{
+.titulo{
+    color:rgb(53, 21, 119);
+    text-align: center;
+    font-family: Cambria;
+}
+.contenedor{
     background-image: url(../imagenes/meditando.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
     height: 1024px;
     width: 1436px;
 }
@@ -14,7 +20,55 @@
     right: 806px;
 }
 .logo{
-background-image: url(../imagenes/Imagen_ramdas.jpeg);
-height: 106px;
-width: 98px;
+    height: 200px;
+    margin-top: 0%;
+}
+header{
+    background-color: rgba(161, 27, 164, 0.50);
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgba(53, 21, 119, 100);
+}
+ul li a:hover{
+    color: blueviolet;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: rgba(161, 27, 164, 0.50);
+    justify-content: space-around;
+}
+footer a .instagram{
+    height: 100px;
+    font-weight: 100px;
+}   
+footer a .wsp{
+    height: 100px;
+    font-weight: 100px;
+}
+footer a .ytb{
+    height: 100px;
+    font-weight: 100px;
+}
+footer a .mail{
+    height: 100px;
+    font-weight: 100px;
+}
+.horarioclases{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
 }
