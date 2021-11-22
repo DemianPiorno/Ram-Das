@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.titulo{
+h1{
     color:rgb(53, 21, 119);
     text-align: center;
     font-family: Cambria;
@@ -11,17 +11,47 @@
     background-image: url(../imagenes/meditando.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 1024px;
-    width: 1436px;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 20px;
 }
-.caja{
-    width: 134px;
-    height: 53px;
-    right: 806px;
+.caja1{
+    width: 299px;
+height: 273px;
+left: 35px;
+top: 177px;
+
+background: rgba(92, 88, 88, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+.caja2{
+    width: 299px;
+height: 273px;
+left: 383px;
+top: 237px;
+
+background: rgba(92, 88, 88, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+.caja3{
+    width: 299px;
+height: 273px;
+left: 732px;
+top: 181px;
+
+background: rgba(92, 88, 88, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
 }
 .logo{
-    height: 200px;
-    margin-top: 0%;
+width: 200px;
+height: 200px;
+left: 0px;
+top: 0px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
 }
 header{
     background-color: rgba(161, 27, 164, 0.50);
@@ -40,31 +70,41 @@ ul li a{
     color:rgba(53, 21, 119, 100);
 }
 ul li a:hover{
-    color: blueviolet;
+    color: whitesmoke;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-footer{
+footer {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 50px 0px;
     background-color: rgba(161, 27, 164, 0.50);
-    justify-content: space-around;
 }
 footer a .instagram{
     height: 100px;
     font-weight: 100px;
+    display: flex;
+    border-radius: 25px;
 }   
 footer a .wsp{
+    display: flex;
+    justify-self:flex-end;
+    text-align: center;
     height: 100px;
     font-weight: 100px;
+    border-radius: 25px;
 }
 footer a .ytb{
     height: 100px;
     font-weight: 100px;
+    display: flex;
+    justify-self:flex-end;
+    text-align: center;
+    border-radius: 25px;
 }
 footer a .mail{
     height: 100px;
     font-weight: 100px;
+    border-radius: 25px;
 }
 .horarioclases{
     background-repeat: no-repeat;
@@ -72,3 +112,78 @@ footer a .mail{
     height: 100%;
     width: 100%;
 }
+p .direccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.column3 .infoCreador{
+    display: flex;
+    justify-self:flex-end;
+    justify-content:space-around;
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.horarioclases{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+}
+.ubicacion{
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0%;
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+.info{
+    font-family:sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:rgb(53, 21, 119);
+    text-align: center;
+    font-family: Cambria;
+}
+.contacto{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:rgb(53, 21, 119);
+    text-align: center;
+    font-family: Cambria;
+}
+.contactate{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
