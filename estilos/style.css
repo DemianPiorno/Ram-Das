@@ -8,14 +8,15 @@ h1{
     font-family: Cambria;
 }
 .contenedor{
+    position: relative;
     background-image: url(../imagenes/meditando.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
     width: 100vw;
-    border-radius: 20px;
 }
-.caja1{
+.contenedor_caja1{
+    position: absolute;
     width: 299px;
     height: 273px;
     left: 35px;
@@ -24,31 +25,44 @@ h1{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
 }
-.caja2{
+.contenedor_caja2{
+    position: absolute;
     width: 299px;
-height: 273px;
-left: 383px;
-top: 237px;
-background: rgba(92, 88, 88, 0.5);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
+    height: 273px;
+    left: 383px;
+    top: 237px;
+    background: rgba(92, 88, 88, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
 }
-.caja3{
-width: 299px;
-height: 273px;
-left: 732px;
-top: 181px;
-background: rgba(92, 88, 88, 0.5);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
+.contenedor_caja3{
+    position: absolute;
+    width: 299px;
+    height: 273px;
+    left: 732px;
+    top: 181px;
+    background: rgba(92, 88, 88, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.contenedor_caja4{
+    position: absolute;
+    width: 299px;
+    height: 273px;
+    left: 1081px;
+    top: 237px;
+    background: rgba(92, 88, 88, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px
 }
 .logo{
-width: 200px;
-height: 200px;
-left: 0px;
-top: 0px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-border-radius: 20px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
 }
 header{
     background-color: rgba(161, 27, 164, 0.50);
