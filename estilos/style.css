@@ -66,7 +66,7 @@ h1{
 }
 header{
     background-color: rgba(161, 27, 164, 0.50);
-    padding: 20px;
+    padding: 0px;
     border:1px white ;
 }
 nav ul{
@@ -188,16 +188,37 @@ h2{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     color:rgb(53, 21, 119);
     text-align: center;
     font-family: Cambria;
 }
 .contactate{
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
+    position: relative;
+    background-image: url(../imagenes/Frases.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
 }
+.listadoProfes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(53, 21, 119);
+    text-align: center;
+    font-family: Cambria;
+}
+.elmail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(53, 21, 119);
+    text-align: center;
+    font-family: Cambria;
+}
+
 
 
 
