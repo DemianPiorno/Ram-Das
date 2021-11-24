@@ -71,7 +71,19 @@ header{
 }
 nav ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+nav{
+    display: inline;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+nav ul li{
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: white;
 }
 ul li{
     list-style: none;
@@ -219,6 +231,14 @@ h2{
     font-family: Cambria;
 }
 
-
+#plantilla{
+    display: grid;
+    grid-template-areas: 
+    "header header nav"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: 1f 1f;
+    grid-template-rows: 100px auto 100px;
+}
 
 
