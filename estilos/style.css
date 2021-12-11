@@ -15,16 +15,14 @@ h1{
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
-    grid-template-areas:"none h1 h1 none"
-    "contenedor_caja1 contenedor_caja2 contenedor_caja3 contenedor_caja4"
-    ;
+    grid-template-areas:". h1 h1 ."
+        "contenedor_caja1 contenedor_caja2 contenedor_caja3 contenedor_caja4";
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 20% 40% 40%;
     grid-gap: 10px;
 }
 .h1{
-    grid-area: "h1";
-    text-align: center;
+    grid-area: ". h1 h1 .";
 }
 .contenedor_caja1{
     grid-area: "contenedor_caja1";
@@ -88,6 +86,7 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    background-image: url(../imagenes/yoga.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -100,6 +99,7 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    background-image: url(../imagenes/yoga\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -111,6 +111,7 @@ h1{
     top: 698px;
     background: #C4C4C4;
     border-radius: 20px;
+    background-image: url(../imagenes/yoga-for-children-CZUVAQL2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,6 +124,7 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    background-image: url(../imagenes/yoga-niños-madrid.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -135,6 +137,7 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    background-image: url(../imagenes/yoga-para-reforzar-la-funcion-cerebral-en-personas-mayores.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -147,6 +150,7 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    background-image: url(../imagenes/1536676631yoga-adultos-mayores-400x250-1-300x188.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -167,10 +171,10 @@ nav ul{
 nav ul li{
     align-items:flex-start;
     justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px 10px;
-    background: rgba(95, 15, 133, 0.3);
     border-radius: 25px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%), 0px 4px 4px rgb(0 0 0 / 5%);
 }
 ul li{
     list-style: none;
@@ -218,8 +222,9 @@ footer a .mail{
 .horarioclases{
     background-repeat: no-repeat;
     background-size:cover;
-    height: 100%;
-    width: 100%;
+    height: 84vh;
+    width: 120vh;
+    overflow: hidden;
 }
 p .direccion{
     display: flex;
@@ -244,12 +249,6 @@ h3{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-.horarioclases{
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 100vh;
-    width: 100vw;
 }
 .ubicacion{
     background-position: center center;
@@ -381,12 +380,40 @@ h2{
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
-    /* or 125% */
     text-align: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #351577;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-
+.tabladehorarios{
+    background:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, auto)}
+.tabla__horarios{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.tabla__horarios, .tabla_dias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabla__dias{
+    grid-column-start: 0;
+    grid-column-end: 2;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
