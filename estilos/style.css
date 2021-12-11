@@ -16,7 +16,7 @@ h1{
     background-size:cover;
     height: 100vh;
     grid-template-areas:". h1 h1 ."
-        "contenedor_caja1 contenedor_caja2 contenedor_caja3 contenedor_caja4";
+        ".contenedor_caja1 .contenedor_caja2 .contenedor_caja3 .contenedor_caja4";
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 20% 40% 40%;
     grid-gap: 10px;
@@ -387,15 +387,21 @@ h2{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .tabladehorarios{
-    background:white;
+    width: 90%;
+    padding: 10px;
+    background:rgba(166, 123, 235, 0.658);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(6, auto)}
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #333;
+}
 .tabla__horarios{
     grid-column-start: 2;
-    grid-column-end: 5;
-    background-color: violet;
+    grid-column-end: 6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,10 +416,10 @@ h2{
 .tabla__dias{
     grid-column-start: 0;
     grid-column-end: 2;
-    background-color: violet;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 1.5em;
+    padding: 10px;
 }
