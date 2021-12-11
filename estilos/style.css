@@ -6,6 +6,7 @@ h1{
     color:rgb(53, 21, 119);
     text-align: center;
     font-family: Cambria;
+    align-items: center;
 }
 .contenedor{
     display: grid; 
@@ -14,11 +15,19 @@ h1{
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
+    grid-template-areas:"none h1 h1 none"
+    "contenedor_caja1 contenedor_caja2 contenedor_caja3 contenedor_caja4"
+    ;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 40% 40%;
+    grid-gap: 10px;
 }
-.contenedor{
-    grid-area: contenedor;
+.h1{
+    grid-area: "h1";
+    text-align: center;
 }
 .contenedor_caja1{
+    grid-area: "contenedor_caja1";
     position: absolute;
     width: 299px;
     height: 273px;
@@ -27,7 +36,9 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     background-image: url(../imagenes/Imagen_ygrande);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor_caja2{
     position: absolute;
@@ -38,7 +49,9 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     background-image: url(../imagenes/yoga_3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor_caja3{
     position: absolute;
@@ -49,7 +62,9 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     background-image: url(../imagenes/Yoga_adultos);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor_caja4{
     position: absolute;
@@ -60,7 +75,9 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     background-image: url(../imagenes/yoga_2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor_caja5{
     position: absolute;
@@ -69,8 +86,10 @@ h1{
     left: 50px;
     top: 698px;
     background: rgba(92, 88, 88, 0.5);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor_caja6{
     position: absolute;
@@ -81,6 +100,8 @@ h1{
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor_caja7{
     position: absolute;
@@ -90,6 +111,8 @@ h1{
     top: 698px;
     background: #C4C4C4;
     border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor_caja8{
     position: absolute;
@@ -99,7 +122,9 @@ h1{
     top: 633px;
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenedor_caja9{
     position: absolute;
@@ -109,7 +134,9 @@ h1{
     top: 714px;
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 .contenedor_caja10{
     position: absolute;
@@ -119,7 +146,9 @@ h1{
     top: 633px;
     background: rgba(92, 88, 88, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 header{
     background-color: rgba(161, 27, 164, 0.50);
@@ -141,6 +170,7 @@ nav ul li{
     padding: 10px 10px;
     background: rgba(95, 15, 133, 0.3);
     border-radius: 25px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
 }
 ul li{
     list-style: none;
@@ -285,13 +315,10 @@ h2{
     text-align: center;
     font-family: Cambria;
 }
-
 #plantilla{
     display: grid;
     grid-template-areas: 
-    "logo . nav"
-    ;
-    grid-template-columns: 1f 1f;
+    "logo . nav";
     align-items: center;
 }
 #logo{
