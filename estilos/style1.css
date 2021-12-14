@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.collapse_navbar_collapse{
+    justify-content: right;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show .navbar-light .navbar-nav .show.nav-link {
+    color: white;
+    font-weight: bold;
+}
+.logo{
+    margin: 0;
+    top: 0;
+    height: 80px;
+    width: 80px;
+    border-radius: 25%;}
+#carouselExampleControls{
+    width: 90%;
+}
+h1{
+    color:rgb(53, 21, 119);
+    text-align: center;
+    font-family: Cambria;
+    align-items: center;
+    margin: auto;}
+#fondo{
+    position: relative;
+    background-image: url(../imagenes/meditando.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+#listaYoga{
+    width: 90%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #333}
+.bg-ligh {
+    background-color: transparent;
+}
+footer {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 0px 0px;
+    
+    background-color: transparent;
+}
+footer a .instagram{
+    height: 80px;
+    border-radius: 25px;
+    display: flex;
+    justify-self:flex-end;
+    text-align: center;
+}   
+footer a .wsp{
+    height: 80px;
+    border-radius: 25px;
+    display: flex;
+    justify-self:flex-end;
+    text-align: center;
+}
+footer a .ytb{
+    height: 80px;
+    border-radius: 25px;
+    display: flex;
+    justify-self:flex-end;
+    text-align: center;
+}
+footer a .mail{
+    height: 80px;
+    border-radius: 25px;}

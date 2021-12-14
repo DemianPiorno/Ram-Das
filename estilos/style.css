@@ -321,10 +321,10 @@ h2{
     "logo . nav";
     align-items: center;
 }
-#logo{
+.logo{
     grid-area: logo;
 }
-#logo img{
+.logo{
     height: 80px;
     width: 80px;
     border-radius: 25%;
