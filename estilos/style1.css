@@ -35,17 +35,6 @@ h1{
     background-size:cover;
     height: 100vh;
 }
-#listaYoga{
-    width: 90%;
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 50px);
-    margin: 50px auto;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 20px #333}
 .bg-ligh {
     background-color: transparent;
 }
@@ -54,7 +43,7 @@ footer {
     justify-content:space-around;
     align-items:center;
     padding: 0px 0px;
-    
+    color: azure;
     background-color: transparent;
 }
 footer a .instagram{
