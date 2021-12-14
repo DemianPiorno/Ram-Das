@@ -18,7 +18,20 @@
     top: 0;
     height: 80px;
     width: 80px;
-    border-radius: 25%;}
+    border-radius: 25%;
+    animation-name: mianimacion;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes mianimacion{
+    0% {left: 0; top: 0px;}
+    25%{left: 150px;top: 0;}
+    50%{left: 150px; top:150px}
+    75%{left: 0px; top: 150px;}
+    100%{left: 0px;top: 0px; }
+}
 #carouselExampleControls{
     width: 90%;
 }
