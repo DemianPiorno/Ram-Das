@@ -221,6 +221,8 @@ footer a .mail{
     border-radius: 25px;
 }
 .horarioclases{
+    display: flex;
+    justify-content: center;
     background-repeat: no-repeat;
     background-size:cover;
     height: 84vh;

@@ -4,14 +4,17 @@
 }
 .collapse_navbar_collapse{
     justify-content: right;
+    font-size: large;
 }
 .navbar-light .navbar-nav .nav-link{
     color: white;
     font-weight: bold;
+    font-size: large;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show .navbar-light .navbar-nav .show.nav-link {
     color: white;
     font-weight: bold;
+    font-size: large;
 }
 .logo{
     margin: 0;
@@ -35,6 +38,9 @@
 #carouselExampleControls{
     width: 90%;
 }
+.h3, h3{
+    text-align: center;
+}
 h1{
     color:rgb(53, 21, 119);
     text-align: center;
@@ -46,7 +52,6 @@ h1{
     background-image: url(../imagenes/meditando.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 100vh;
 }
 .bg-ligh {
     background-color: transparent;
@@ -82,4 +87,82 @@ footer a .ytb{
 }
 footer a .mail{
     height: 80px;
-    border-radius: 25px;}
+    border-radius: 25px;
+}
+.tabladehorarios{
+    width: 90%;
+    padding: 10px;
+    background:rgba(166, 123, 235, 0.658);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #333;
+}
+.tabla__horarios{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.tabla__horarios, .tabla_dias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabla__dias{
+    grid-column-start: 0;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.ubicacion{
+    display: flex;
+    justify-content: center;
+}
+.fab, .far {
+        font-weight: 700;
+        font-size: xx-large;
+        color: white;
+        justify-content:space-around;
+}
+.column2{
+    display: flex;
+    justify-content: space-between;
+}
+.horarioclases{
+    display: flex;
+    justify-content: right;
+    height: 75%;
+    width: 75%;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
